@@ -61,6 +61,7 @@ public class AddStudentActivity extends AppCompatActivity  implements View.OnCli
             //This is the way to insert data into a database table
             studentDao.create(stuDetails);
             reset();
+            finish();
 
         } catch (SQLException e) {
             e.printStackTrace();

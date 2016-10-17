@@ -15,7 +15,7 @@ public class RecordArrayAdapter extends ArrayAdapter<String>{
 
 		private LayoutInflater inflater;
 		
-		// This would hold the database objects. It could be TeacherDetails or StudentDetails objects
+		// This would hold the database objects
 		private List records;
 		
 		// Declaration of DAO to interact with corresponding table
